@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    width: 100%;
+  }
+  
+  div:after {
+    border-bottom: 2px dotted black;
+    content: '';
+    flex: 1;
+  }
+
+.home-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-heading-name{
+    width: auto;
+}
+.menu-heading-img{
+    width: 50%;
+}
+.menu-heading-img img{
+    width: 90%;
+    overflow: hidden;
+}
