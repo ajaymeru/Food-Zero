@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 @media (min-width: 1500px) {
     body {
         max-width: 1500px;
         margin: 0 auto;
     }
 }
+
 a {
     text-decoration: none;
 }
@@ -22,7 +24,7 @@ a {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
-    padding:   10px  20px;
+    padding: 10px 20px;
 }
 
 .navbar-left {
@@ -34,7 +36,7 @@ a {
 }
 
 .navbar-logo {
-    padding: 0px  20px;
+    padding: 0px 20px;
 }
 
 .navbar-logo img {
@@ -102,13 +104,15 @@ a {
     background-color: #233000;
     padding-top: 30px;
 }
-.top-header{
+
+.top-header {
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 0px 40px;
 }
-.top-header-left{
+
+.top-header-left {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -147,7 +151,8 @@ a {
     color: #ffffff;
     font-size: 30px;
 }
-.cooked-meat{
+
+.cooked-meat {
     width: 80%;
 }
 
@@ -156,7 +161,7 @@ a {
     height: auto;
 }
 
-.top-header-right{
+.top-header-right {
     width: 50%;
     position: relative;
     /* left: -50px; */
@@ -178,7 +183,7 @@ a {
     width: 150px;
 }
 
-.bottom-header{
+.bottom-header {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -194,14 +199,17 @@ a {
     gap: 20px;
     flex-direction: column;
 }
+
 .diet-box img {
     width: 100%;
 }
+
 .diet-box h3 {
     width: 60%;
     color: #ffffff;
     font-size: 40px;
 }
+
 .diet-box p {
     width: 60%;
     color: #ffffff;
@@ -225,83 +233,120 @@ a {
     margin: 0px auto;
 }
 
+/* ............section home menu................ */
 
-.home-menu{
+.home-menu {
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
-.menu-heading{
-    width: 100%;
+.menu-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.menu-heading-name{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.menu-heading-name {
+    padding-left: 100px;
 }
-.menu-heading-name h2{
+
+.menu-heading-name h2 {
     font-size: 80px;
-    color: #000000;
-    text-align: center;
-
 }
-.menu-heading-name p{
+
+.menu-heading-name p {
+    max-width: 80%;
     font-size: 20px;
-    color: #000000;
-    text-align: center;
-    width: 80%;
-    opacity: 90%;
+    opacity: 80%;
 }
 
-
-.menu-heading-img{
-    width: 40%;
-}
-.menu-heading-img img{
-    width: 100%;
+.menu-heading-img img {
+    width: 500px;
 }
 
-.pricelist{
+.pricelist {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 15px;
-    padding-bottom: 100px;
 }
-.pricelists{
-    width: calc(40%);
+
+.pricelists {
     padding: 10px;
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
-.pricelists h6{
-    font-size: 20px;
-    color: #000000;
+
+.pricelists h6 {
+    font-size: 25px;
     text-align: right;
 }
-.pricelists .dot-line{
+
+.pricelists .dot-line {
     display: flex;
     width: 100%;
 }
+
 .dot-line:after {
     border-bottom: 2px dotted black;
     content: '';
     flex: 1;
 }
-.pricelists h4{
-    width: 90%;
+
+.pricelists h4 {
+    width: 85%;
     font-size: 40px;
-    color: #000000;
 }
 
-.pricelists p{
+.pricelists p {
     width: 90%;
     font-size: 25px;
+    opacity: 80%;
+}
+
+/* ....................section chef............. */
+
+.chef {
+    width: 100%;
+    height: 20vh;
+    background: #EBF0E4;
+}
+/* ..............features........................ */
+.features {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    padding: 100px 0;
+}
+
+.iconboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconboxes img {
+    width: 150px;
+    height: 150px;
+}
+
+.iconboxes h4 {
+    font-size: 30px; 
     color: #000000;
+    padding: 10px 0px;
+}
+
+.iconboxes p {
+    width: 80%;
+    font-size: 15px; 
+    color: #000000;
+    opacity: 90%;
+    text-align: center;
+    padding: 5px 0;
 }
