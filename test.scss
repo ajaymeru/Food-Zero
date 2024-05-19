@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+   
+
+.chef {
+    width: 100%;
+    
+    background-color: #EBF0E4;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    
+
+padding: 420px 0;
+
+}
+.chef-left{
+    background-color: #EBF0E4;
+}
+
+.chef-left img{
+    position: absolute;
+}
+.man-in-black{
+    top: 50px;
+    width: 600px;
+}
+.brown-wooden{
+    top: 50px;
+    width: 300px;
+}
+.chefleafleft{
+    top: 50px;
+    width: 150px;
+}
+
+
+
+@media (min-width: 1500px) {
+    body {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
+
+
+
+/* .man-in-black {
+    position: relative;
+}
+.man-in-black img {
+    width: 800px;
+
+}
+
+.brown-wooden {
+    position: absolute;
+}
+
+.brown-wooden img {
+    position: absolute;
+    width: 500px;
+
+}
+.chefleafleft{
+    position: absolute;
+    width: 200px;
+} */
